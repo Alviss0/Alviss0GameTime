@@ -66,7 +66,7 @@ function lamp(options, timer) {
     target.src = "Pictures/lampOn.jpg";
 
     lampCount++;
-    if (lampCount === 5) {
+    if (lampCount === 6) {
       timer.clearTimer();
       incrementScore(options.Score);
       document.body.appendChild(addResultModal(true, options.Score, "/Levels/Lvl_2/lvl2.html"));
