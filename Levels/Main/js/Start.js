@@ -14,8 +14,12 @@ function addStart() {
       } else {
         return;
       }
+    } else {
+      localStorage.setItem("userName", inputNameField);
+      localStorage.setItem("userScore", "0");
+      location.href = "../Lvl_1/lvl1.html";
     }
   });
-}
+};
 
 export { addStart };
