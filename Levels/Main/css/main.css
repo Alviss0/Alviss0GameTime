@@ -51,8 +51,9 @@
 }
 
 .authorization__buttonStart {
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-top: 10px;
 }
