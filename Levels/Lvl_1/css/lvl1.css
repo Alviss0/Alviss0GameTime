@@ -1,0 +1,38 @@
+.content__field {
+  height: 90%;
+  border-radius: 15px;
+
+  /* width: 100%; */
+  background-color: #fff;
+  position: relative;
+}
+
+.lamp {
+  position: absolute;
+  width: 8%;
+  height: 16%;
+}
+.lamp:hover {
+  cursor: pointer;
+}
+
+.lamp1 {
+  top: 7%;
+  left: 10%;
+}
+.lamp2 {
+  top: 73%;
+  left: 87%;
+}
+.lamp3 {
+  top: 17%;
+  left: 66%;
+}
+.lamp4 {
+  top: 58%;
+  left: 4%;
+}
+.lamp5 {
+  top: 44%;
+  left: 44%;
+}
