@@ -15,7 +15,7 @@ function addStart() {
         return;
       }
     } else {
-      localStorage.setItem("userName", inputNameField);
+      localStorage.setItem("userName", inputNameField.value);
       localStorage.setItem("userScore", "0");
       location.href = "../Lvl_1/lvl1.html";
     }
